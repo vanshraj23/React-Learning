@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #242424;
+    color: #fff;
+    padding: 10px;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    background-color: #333333;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #fff;
+    margin: 100px auto;
+}
+
+.container .title {
+    text-shadow: 0px 0px 15px #2a85fd;
+}
+
+.container input[type="text"] {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    border-radius: 10px 0px 0px 10px;
+    margin-block: 20px 30px;
+    color: #086f9e;
+}
+
+.container button {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #2a85fd;
+    color: #fff;
+    margin-left: -5px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.container label {
+    color: #2a85fd;
+    margin-left: 5px;
+    letter-spacing: 0.25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-shadow: 0px 0px 5px #666;
+}
+
+.container label span {
+    color: #fff;
+}
+
+.container input[type="range"] {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.container input[type="checkbox"] {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#characters {
+    margin-left: 50px;
+    margin-top: 10px;
+}
