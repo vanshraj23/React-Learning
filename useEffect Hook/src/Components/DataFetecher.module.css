@@ -1,0 +1,18 @@
+.data--container {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.post--container {
+    height: 500px;
+    max-height: 500px;
+    overflow: auto;
+    scroll-behavior: smooth;
+    padding: 20px;
+    list-style: disc;
+}
+
+.post {
+    margin-bottom: 30px;
+}
