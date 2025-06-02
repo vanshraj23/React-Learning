@@ -1,0 +1,35 @@
+.todo--item {
+    display: grid;
+    grid-template-columns: 2fr 1fr 96px;
+    gap: 10px;
+    margin-bottom: 15px;
+    animation: slideIn 0.35s linear;
+}
+
+.todo--item .todo--name,
+.todo--item .todo--date {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.todo--item .delete--btn {
+    background-color: #f81f1f;
+    color: #fff;
+}
+.todo--item .delete--btn:hover {
+    background-color: #c90c0c;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    } 
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }   
+}

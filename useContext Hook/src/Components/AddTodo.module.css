@@ -1,0 +1,26 @@
+.todo--form {
+    width: 100%;
+    margin-bottom: 15px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr 1fr 96px;
+}
+
+.todo--form #todo--name,
+.todo--form #todo--date {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    outline: none;
+}
+
+.todo--form .submit--btn {
+    color: #fff;
+    background-color: #58ce0a;
+}
+.todo--form .submit--btn:hover {
+    background-color: #51af12;
+}
